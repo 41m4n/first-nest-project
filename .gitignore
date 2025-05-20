@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*.local
+.env.local
+
+# Coverage reports
+coverage/
+*.lcov
+
+# IDE / editor folders
+.vscode/
+.idea/
+*.swp
+
+# Dependency lock for other package managers
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: ignore Docker and debug-related stuff if you're using it
+docker-compose.override.yml
+debug.log
